@@ -26,6 +26,11 @@ const Home = ({navigation, route} : any) => {
                 puuid
             })
           }  
+          else{
+            Alert.alert('Ops...', 'Summoner not found', [
+              {text: 'OK', onPress: () => console.log('OK Pressed')},
+            ]);
+          }
     }
     else{
       Alert.alert('Ops...', 'Summoner not found', [

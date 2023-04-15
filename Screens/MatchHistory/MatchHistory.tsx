@@ -52,7 +52,7 @@ const MatchHistory = ({ route, navigation }: any) => {
 
   return (
     <>
-
+    <Text style={{textAlign: 'center', fontSize: 16}}>{summonersInfo.summonerName}</Text>
     </>
   )
 }
