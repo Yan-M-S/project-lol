@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   TitleText: {
     textAlign: 'center',
     fontSize: 18, color: '#FFFFFF',
-    margin: Platform.OS === 'ios' ? '12%' : '12%'
+    margin: '12%'
   },
   ImageStyle: {
     width: 320,
